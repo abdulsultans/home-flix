@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.btn {
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: orangered;
+    border: none;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-l {
+    background-color: transparent;
+    border: solid 1px #ff4500;
+    height: 30px;
+    width: 60px;
+    ;
+}
+
+.btn-l {
+    width: 60px;
+    ;
+}
+
+.log-btn {
+    
+}
+
+input {
+    background-color: transparent;
+    border: solid 1px #110f11;
+    height: 27px;
+    width: 250px;
+}
+
+.single-plan{
+    width: 250px;
+    height: 350px;
+    background-color: #110f11;
+    border: none;
+}
+
+.access-plans {
+    display: flex;
+    justify-content:space-around;
+    margin:0px;
+    
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.foot-menu {
+    margin-right: 50vh;
+}
+
+.social-icons {
+    margin-right: 50vh;
+}
+
+.download-app {
+    margin-right: 50vh;
+}
