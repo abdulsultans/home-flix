@@ -1,82 +1,116 @@
-body {
-    background-color: black;
-    color: white;
-    margin: 0;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-.btn {
-    align-items: center;
-    justify-content: center;
-}
-
-button {
-    color: white;
-    background-color: orangered;
-    border: none;
-    height: 30px;
-    padding: 5px;
-    text-align: center;
-}
-
-.btn-l {
-    background-color: transparent;
-    border: solid 1px #ff4500;
-    height: 30px;
-    width: 60px;
-    ;
-}
-
-.btn-l {
-    width: 60px;
-    ;
-}
-
-.log-btn {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: black;
+        color: white;
+        margin: 20px;
+        width: 1920;
+    }
     
-}
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
 
-input {
-    background-color: transparent;
-    border: solid 1px #110f11;
-    height: 27px;
-    width: 250px;
-}
+    hero{
+        display: flex;
+    }
 
-.single-plan{
-    width: 250px;
-    height: 350px;
-    background-color: #110f11;
-    border: none;
-}
-
-.access-plans {
-    display: flex;
-    justify-content:space-around;
-    margin:0px;
+    .a-hero{
+        justify-content: center;
+        text-align: center;
+    }
     
+    .btn {
+        align-items: center;
+        justify-content: center;
+    }
     
-}
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 50px;
-}
-
-.foot-menu {
-    margin-right: 50vh;
-}
-
-.social-icons {
-    margin-right: 50vh;
-}
-
-.download-app {
-    margin-right: 50vh;
-}
+    button {
+        color: white;
+        background-color: orangered;
+        border: none;
+        height: 30px;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .btn-l {
+        background-color: transparent;
+        border: solid 1px #ff4500;
+        height: 30px;
+        width: 60px;
+    }
+    
+    .btn-l {
+        width: 60px;
+    }
+    
+    .logo {
+        height: 38px;
+        width: 150px;
+    }
+    
+    input {
+        background-color: transparent;
+        border: solid 1px #110f11;
+        height: 27px;
+        width: 250px;
+    }
+    
+    .single-plan {
+        width: 250px;
+        height: 350px;
+        background-color: #110f11;
+        border: none;
+    }
+    
+    .access-plans {
+        display: flex;
+    }
+    
+    .section1 {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        }
+    
+    .sc {
+        height: 35px;
+       
+    }
+    
+    .sc1 {
+        padding: 25px;
+        height: auto;
+       
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .foot-menu {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+    
+    .social-icons {
+        display: grid;
+        margin-right: 30px;
+    }
+    
+    .download-app {
+        display: grid;
+        justify-content: space-between;
+        margin-right: 30px;
+    }
+    
+    #apps {
+        display: flex;
+        justify-content: space-between;
+        width: 125px;
+        height: 35px;
+    }

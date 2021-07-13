@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="171" height="167" viewBox="0 0 171 167">
+  <g id="Group_78" data-name="Group 78" transform="translate(-1396 -2040)">
+    <g id="tablet" transform="translate(1434.527 2040.214)">
+      <rect id="Rectangle_60" data-name="Rectangle 60" width="126" height="161" rx="2" transform="translate(4.473 1.786)" fill="none" stroke="#ff4310" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_3" data-name="Line 3" transform="translate(67.473 129.786)" fill="none" stroke="#ff4310" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+    </g>
+    <g id="smartphone" transform="translate(1393 2106.246)">
+      <rect id="Rectangle_62" data-name="Rectangle 62" width="76" height="107" rx="2" transform="translate(4 -6.246)" fill="#091111"/>
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="64" height="91" rx="2" transform="translate(5 4.754)" fill="none" stroke="#ff4310" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_4" data-name="Line 4" transform="translate(36 77.754)" fill="none" stroke="#ff4310" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    </g>
+  </g>
+</svg>
