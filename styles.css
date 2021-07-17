@@ -2,21 +2,39 @@
         font-family: 'Montserrat', sans-serif;
         background-color: #000000;
         color: white;
-        margin: 20px;
         width: 1920;
+        margin: 0 100px 0 100px;
     }
     
     nav {
         display: flex;
         justify-content: space-between;
-        margin: 20px;
+        margin: 40px;
     }
     
-    hero {
+    .hero {
+        position: relative;
+        background-image: url("backgroundHero.png");
+    
+    }
+    
+    .shade {
+        background-image: url("/assets/heroBackground.svg");
+        opacity: 0.9;
+    }
+    
+    h1 {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .watch-now {
         display: flex;
+        justify-content: center;
+        text-align: center;
     }
     
-    .a-hero {
+    .after-hero {
         justify-content: center;
         text-align: center;
     }
@@ -47,8 +65,8 @@
     }
     
     .logo {
-        height: 38px;
-        width: 150px;
+        height: 40px;
+        width: 140px;
     }
     
     input {
